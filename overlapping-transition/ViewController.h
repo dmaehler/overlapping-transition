@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController 
 
+- (IBAction)openAnotherView:(id)sender;
+@property (strong, nonatomic) IBOutlet UIView *view;
+@property (strong, nonatomic) UIView *blockView;
+@property (nonatomic) BOOL rotated;
+@property (nonatomic) CGRect bounds;
 
 @end
 

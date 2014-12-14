@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OverlappingTransitionDelegate.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) OverlappingTransitionDelegate *overlappingDelegate;
 
 @end
 

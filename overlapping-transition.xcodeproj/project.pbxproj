@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3799F73D1A3DFC4100CA6A26 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3799F73C1A3DFC4100CA6A26 /* View.xib */; };
+		3799F7411A3DFCED00CA6A26 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3799F73F1A3DFCED00CA6A26 /* AnotherViewController.m */; };
+		3799F7421A3DFCED00CA6A26 /* AnotherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3799F7401A3DFCED00CA6A26 /* AnotherView.xib */; };
+		37DC9BAD1A3CEDA400E91301 /* OverlappingTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DC9BAC1A3CEDA400E91301 /* OverlappingTransitionDelegate.m */; };
+		37DC9BB01A3CEF1700E91301 /* OverlappingPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DC9BAF1A3CEF1700E91301 /* OverlappingPushAnimation.m */; };
+		37DC9BB31A3CEFD000E91301 /* OverlappingPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DC9BB21A3CEFD000E91301 /* OverlappingPopAnimation.m */; };
+		37FDCC2E1A3CE8510055973D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FDCC2D1A3CE8510055973D /* main.m */; };
+		37FDCC311A3CE8510055973D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FDCC301A3CE8510055973D /* AppDelegate.m */; };
+		37FDCC341A3CE8510055973D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FDCC331A3CE8510055973D /* ViewController.m */; };
+		37FDCC391A3CE8510055973D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FDCC381A3CE8510055973D /* Images.xcassets */; };
+		37FDCC3C1A3CE8510055973D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37FDCC3A1A3CE8510055973D /* LaunchScreen.xib */; };
+		37FDCC481A3CE8510055973D /* overlapping_transitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FDCC471A3CE8510055973D /* overlapping_transitionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FDCC421A3CE8510055973D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FDCC201A3CE8510055973D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FDCC271A3CE8510055973D;
+			remoteInfo = "overlapping-transition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3799F73C1A3DFC4100CA6A26 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		3799F73E1A3DFCED00CA6A26 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		3799F73F1A3DFCED00CA6A26 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		3799F7401A3DFCED00CA6A26 /* AnotherView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherView.xib; sourceTree = "<group>"; };
+		37DC9BAB1A3CEDA400E91301 /* OverlappingTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlappingTransitionDelegate.h; sourceTree = "<group>"; };
+		37DC9BAC1A3CEDA400E91301 /* OverlappingTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlappingTransitionDelegate.m; sourceTree = "<group>"; };
+		37DC9BAE1A3CEF1700E91301 /* OverlappingPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlappingPushAnimation.h; sourceTree = "<group>"; };
+		37DC9BAF1A3CEF1700E91301 /* OverlappingPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlappingPushAnimation.m; sourceTree = "<group>"; };
+		37DC9BB11A3CEFD000E91301 /* OverlappingPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlappingPopAnimation.h; sourceTree = "<group>"; };
+		37DC9BB21A3CEFD000E91301 /* OverlappingPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlappingPopAnimation.m; sourceTree = "<group>"; };
+		37FDCC281A3CE8510055973D /* overlapping-transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "overlapping-transition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FDCC2C1A3CE8510055973D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FDCC2D1A3CE8510055973D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37FDCC2F1A3CE8510055973D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37FDCC301A3CE8510055973D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37FDCC321A3CE8510055973D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37FDCC331A3CE8510055973D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37FDCC381A3CE8510055973D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37FDCC3B1A3CE8510055973D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		37FDCC411A3CE8510055973D /* overlapping-transitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "overlapping-transitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FDCC461A3CE8510055973D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FDCC471A3CE8510055973D /* overlapping_transitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = overlapping_transitionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FDCC251A3CE8510055973D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FDCC3E1A3CE8510055973D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DC9BAA1A3CED7200E91301 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				37DC9BAB1A3CEDA400E91301 /* OverlappingTransitionDelegate.h */,
+				37DC9BAC1A3CEDA400E91301 /* OverlappingTransitionDelegate.m */,
+				37DC9BAE1A3CEF1700E91301 /* OverlappingPushAnimation.h */,
+				37DC9BAF1A3CEF1700E91301 /* OverlappingPushAnimation.m */,
+				37DC9BB11A3CEFD000E91301 /* OverlappingPopAnimation.h */,
+				37DC9BB21A3CEFD000E91301 /* OverlappingPopAnimation.m */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		37FDCC1F1A3CE8510055973D = {
+			isa = PBXGroup;
+			children = (
+				37FDCC2A1A3CE8510055973D /* overlapping-transition */,
+				37FDCC441A3CE8510055973D /* overlapping-transitionTests */,
+				37FDCC291A3CE8510055973D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37FDCC291A3CE8510055973D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FDCC281A3CE8510055973D /* overlapping-transition.app */,
+				37FDCC411A3CE8510055973D /* overlapping-transitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37FDCC2A1A3CE8510055973D /* overlapping-transition */ = {
+			isa = PBXGroup;
+			children = (
+				37DC9BAA1A3CED7200E91301 /* Transitions */,
+				37FDCC2F1A3CE8510055973D /* AppDelegate.h */,
+				37FDCC301A3CE8510055973D /* AppDelegate.m */,
+				37FDCC321A3CE8510055973D /* ViewController.h */,
+				37FDCC331A3CE8510055973D /* ViewController.m */,
+				37FDCC381A3CE8510055973D /* Images.xcassets */,
+				37FDCC3A1A3CE8510055973D /* LaunchScreen.xib */,
+				37FDCC2B1A3CE8510055973D /* Supporting Files */,
+				3799F73C1A3DFC4100CA6A26 /* View.xib */,
+				3799F73E1A3DFCED00CA6A26 /* AnotherViewController.h */,
+				3799F73F1A3DFCED00CA6A26 /* AnotherViewController.m */,
+				3799F7401A3DFCED00CA6A26 /* AnotherView.xib */,
+			);
+			path = "overlapping-transition";
+			sourceTree = "<group>";
+		};
+		37FDCC2B1A3CE8510055973D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FDCC2C1A3CE8510055973D /* Info.plist */,
+				37FDCC2D1A3CE8510055973D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37FDCC441A3CE8510055973D /* overlapping-transitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FDCC471A3CE8510055973D /* overlapping_transitionTests.m */,
+				37FDCC451A3CE8510055973D /* Supporting Files */,
+			);
+			path = "overlapping-transitionTests";
+			sourceTree = "<group>";
+		};
+		37FDCC451A3CE8510055973D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FDCC461A3CE8510055973D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37FDCC271A3CE8510055973D /* overlapping-transition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FDCC4B1A3CE8510055973D /* Build configuration list for PBXNativeTarget "overlapping-transition" */;
+			buildPhases = (
+				37FDCC241A3CE8510055973D /* Sources */,
+				37FDCC251A3CE8510055973D /* Frameworks */,
+				37FDCC261A3CE8510055973D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "overlapping-transition";
+			productName = "overlapping-transition";
+			productReference = 37FDCC281A3CE8510055973D /* overlapping-transition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37FDCC401A3CE8510055973D /* overlapping-transitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FDCC4E1A3CE8510055973D /* Build configuration list for PBXNativeTarget "overlapping-transitionTests" */;
+			buildPhases = (
+				37FDCC3D1A3CE8510055973D /* Sources */,
+				37FDCC3E1A3CE8510055973D /* Frameworks */,
+				37FDCC3F1A3CE8510055973D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FDCC431A3CE8510055973D /* PBXTargetDependency */,
+			);
+			name = "overlapping-transitionTests";
+			productName = "overlapping-transitionTests";
+			productReference = 37FDCC411A3CE8510055973D /* overlapping-transitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FDCC201A3CE8510055973D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Diego Maehler";
+				TargetAttributes = {
+					37FDCC271A3CE8510055973D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					37FDCC401A3CE8510055973D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 37FDCC271A3CE8510055973D;
+					};
+				};
+			};
+			buildConfigurationList = 37FDCC231A3CE8510055973D /* Build configuration list for PBXProject "overlapping-transition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37FDCC1F1A3CE8510055973D;
+			productRefGroup = 37FDCC291A3CE8510055973D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FDCC271A3CE8510055973D /* overlapping-transition */,
+				37FDCC401A3CE8510055973D /* overlapping-transitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FDCC261A3CE8510055973D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3799F73D1A3DFC4100CA6A26 /* View.xib in Resources */,
+				3799F7421A3DFCED00CA6A26 /* AnotherView.xib in Resources */,
+				37FDCC3C1A3CE8510055973D /* LaunchScreen.xib in Resources */,
+				37FDCC391A3CE8510055973D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FDCC3F1A3CE8510055973D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FDCC241A3CE8510055973D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FDCC341A3CE8510055973D /* ViewController.m in Sources */,
+				37FDCC311A3CE8510055973D /* AppDelegate.m in Sources */,
+				37FDCC2E1A3CE8510055973D /* main.m in Sources */,
+				37DC9BAD1A3CEDA400E91301 /* OverlappingTransitionDelegate.m in Sources */,
+				37DC9BB31A3CEFD000E91301 /* OverlappingPopAnimation.m in Sources */,
+				3799F7411A3DFCED00CA6A26 /* AnotherViewController.m in Sources */,
+				37DC9BB01A3CEF1700E91301 /* OverlappingPushAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FDCC3D1A3CE8510055973D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FDCC481A3CE8510055973D /* overlapping_transitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FDCC431A3CE8510055973D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FDCC271A3CE8510055973D /* overlapping-transition */;
+			targetProxy = 37FDCC421A3CE8510055973D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37FDCC3A1A3CE8510055973D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FDCC3B1A3CE8510055973D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37FDCC491A3CE8510055973D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37FDCC4A1A3CE8510055973D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FDCC4C1A3CE8510055973D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "overlapping-transition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37FDCC4D1A3CE8510055973D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "overlapping-transition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37FDCC4F1A3CE8510055973D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "overlapping-transitionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/overlapping-transition.app/overlapping-transition";
+			};
+			name = Debug;
+		};
+		37FDCC501A3CE8510055973D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "overlapping-transitionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/overlapping-transition.app/overlapping-transition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FDCC231A3CE8510055973D /* Build configuration list for PBXProject "overlapping-transition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FDCC491A3CE8510055973D /* Debug */,
+				37FDCC4A1A3CE8510055973D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FDCC4B1A3CE8510055973D /* Build configuration list for PBXNativeTarget "overlapping-transition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FDCC4C1A3CE8510055973D /* Debug */,
+				37FDCC4D1A3CE8510055973D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FDCC4E1A3CE8510055973D /* Build configuration list for PBXNativeTarget "overlapping-transitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FDCC4F1A3CE8510055973D /* Debug */,
+				37FDCC501A3CE8510055973D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37FDCC201A3CE8510055973D /* Project object */;
+}
